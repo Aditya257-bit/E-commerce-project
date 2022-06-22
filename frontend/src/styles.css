@@ -1,0 +1,63 @@
+.name {
+    background: indigo;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* black shade form 10-1 */
+.black-10 {
+    background: #f2f2f2;
+}
+.black-9 {
+    background: #e6e6e6;
+}
+.black-8 {
+    background: #d9d9d9;
+}
+.black-7 {
+    background: #cccccc;
+}
+.black-6 {
+    background: #bfbfbf;
+}
+.black-5 {
+    background: #b3b3b3;
+}
+
+.btn__container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.btn__container .prev__btn,.next__btn{
+    all: unset;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 7px;
+    border: 1px solid #E5E7EB;
+    margin-right: 2px;
+    background-color: #ddd;
+    outline: none;
+}
+
+.btn__container .page__number {
+    cursor: pointer;
+    color: black;
+    padding: 8px 16px;
+    border-radius: 7px;
+    text-decoration: none;
+    margin-right: 2px;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    outline: none;
+}
+
+.btn__container .active {
+    background-color: #5850EC;
+    color: #ffffff;
+}
+
+.btn__container .page__number:hover:not(.active) {
+    background-color: #ddd;
+}
